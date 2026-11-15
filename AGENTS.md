@@ -9,5 +9,7 @@ Experimental multi-agent workspace: Hermes bots, Orgo screens, Composio app acce
 - Prevent duplicate side effects during retries, concurrent runs, or callback replays.
 - Do not store or echo connector credentials, voice transcripts, or customer records in Git or test fixtures.
 - Never expand outward-facing messaging to unsolicited cold sales calls.
+- **Grok never gets GitHub access.** No GitHub token, deploy key or repo connection is ever given to a Grok/xAI agent or bot (Jeremy's account was suspended twice after Grok access).
+- **Team log:** every commit, PR comment and lesson records a Pacific timestamp, who did it (Claude, ChatGPT, Grok Bot or Jeremy) and why, so agents don't repeat or overwrite each other's work. Check open PRs before starting.
 
 Read `docs/agent-learning-and-verification.md` before agent orchestration or permission changes.
